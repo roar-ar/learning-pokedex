@@ -1,0 +1,23 @@
+# Dependencies and generated files
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+!.env.example
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Codex work files and instructor-only notes
+**/AGENTS.md
+.codex/
+.agents/
+codex-work/
+codex-plans/
+AGENTS.md
+teacher-notes/
