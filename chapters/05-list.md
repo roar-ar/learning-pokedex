@@ -26,6 +26,8 @@
 
 `(pokemon) => (...)` は **アロー関数** です。`pokemon` に順番に1匹分のデータが入り、丸括弧の中の JSX を返します。
 
+ここでの `pokemon` は `map` の関数が受け取る引数です。前の章の `const pokemon = pokemonList[0]` を削除しても、各カードに渡す値はこの引数から取れます。`map` は元の配列の要素数や順番を変えません。
+
 ```text
 1匹分のデータ → PokemonCard
 次のデータ    → PokemonCard

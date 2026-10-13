@@ -91,6 +91,8 @@ const dialogRef = useRef(null)
 
 最初は要素がないため `null` です。次のステップで `ref` 属性を付けると、表示後に `dialogRef.current` で要素を参照できます。
 
+state は値の更新に合わせて表示を更新するときに使い、ref は表示の計算に使わない参照を保持するときに使います。`ref.current` を変えても再レンダーは起きません。今回はブラウザの要素を操作するために ref を使います。[React：useRef](https://ja.react.dev/reference/react/useRef)
+
 **確認：** 保存しても表示は変わりません。次のステップでは、クリック時にこの参照を使います。
 
 ## ステップ3 モーダルを開閉する

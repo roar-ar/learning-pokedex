@@ -19,7 +19,7 @@ export default function PokemonCard({ pokemon, onSelect, buttonRef }) {
         type="button"
         onClick={() => onSelect(pokemon.id)}
       >
-        詳細を見る
+        {pokemon.name}の詳細を見る
       </button>
     </article>
   )

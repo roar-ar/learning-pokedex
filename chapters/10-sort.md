@@ -44,6 +44,8 @@ const sortedPokemon = [...filteredPokemon].sort((a, b) => a.id - b.id)
 
 `sort` は呼び出した配列そのものの順番を変更します。そのため、ここではコピーを使います。比較関数 `(a, b) => a.id - b.id` は、a の番号が小さいと負の数になり、a を先に置く指定です。[MDN：Array.sort](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 
+前の章の `filter` も新しい配列を返すため、`filteredPokemon` を直接並べ替えても `pokemonList` の順序は変わりません。ここでは、並べ替え前の `filteredPokemon` も保つため、さらにコピーしています。後の章でデータを state に入れたときも、state の配列を直接 `sort` せず、新しい配列を作る考え方が使えます。[React：state 内の配列の更新](https://ja.react.dev/learn/updating-arrays-in-state)
+
 一覧の `filteredPokemon.map(...)` を `sortedPokemon.map(...)` に変えます。件数と0件の判定の `filteredPokemon.length` も、`sortedPokemon.length` に変えてください。
 
 **確認：** 番号が1から順に並びます。タイプで絞った場合も、残ったカードの番号が小さい順になります。

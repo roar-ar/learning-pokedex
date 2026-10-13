@@ -40,6 +40,8 @@ JSON は、データを文字で表す形式です。このリポジトリでは
 
 `"id": 1` は、項目名 `id` の値が数値の `1` という意味です。`"nameja": "フシギダネ"` の値は文字列です。JSON の項目名や文字列はダブルクォートで囲み、項目や要素の間はカンマで区切ります。
 
+JSON ファイルにはコメントを書けず、最後の項目や要素の後ろにもカンマを付けられません。後の章に出てくる JavaScript のオブジェクトとは、この点が異なります。[MDN：JSON](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/JSON)
+
 **確認：** 実際のファイルで `id`、`nameja`、`height`、`weight` を探します。先頭の情報がフシギダネであることを確認してください。
 
 ## ステップ2 先頭の名前と図鑑番号を表示する

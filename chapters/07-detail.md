@@ -76,7 +76,7 @@ if (selectedPokemon) {
 <PokemonCard key={pokemon.id} pokemon={pokemon} onSelect={setSelectedId} />
 ```
 
-`PokemonCard.jsx` の引数から `isSelected` を削除し、ボタンの `aria-pressed` を削除します。ボタンの文字は `詳細を見る` に変えます。
+`PokemonCard.jsx` の引数から `isSelected` を削除し、ボタンの `aria-pressed` を削除します。ボタンの中身は `{pokemon.nameja}の詳細を見る` に変えます。対象の名前が分かる表示を続けます。
 
 **確認：** 各カードの「詳細を見る」から、正しい名前と番号の詳細を開けます。押したままの状態を表すボタンではなく、画面を切り替えるボタンになりました。
 
@@ -184,6 +184,8 @@ import statNames from '../data/statNames.ja.json'
 ```
 
 `stat.name` はステータスの識別子、`base_stat` は表示する数値です。
+
+この数値は種族ごとの基本値です。ゲーム内の個体のレベルなどから決まる、実際の能力値の計算は扱いません。[PokéAPI：PokemonStat](https://pokeapi.co/docs/v2#pokemon)
 
 **確認：** フシギダネの HP が45、こうげきが49など、6項目が表示されます。ほかのポケモンでも数値が変わることを確かめてください。
 

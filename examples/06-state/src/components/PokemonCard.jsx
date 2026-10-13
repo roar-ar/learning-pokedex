@@ -19,7 +19,7 @@ export default function PokemonCard({ pokemon, onSelect, isSelected }) {
         aria-pressed={isSelected}
         onClick={() => onSelect(pokemon.id)}
       >
-        このポケモンを選ぶ
+        {pokemon.nameja}を選ぶ
       </button>
     </article>
   )

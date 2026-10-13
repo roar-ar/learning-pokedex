@@ -196,9 +196,11 @@ npm run preview -- examples/13-finish
 コードを見ながら、次のことを説明してみてください。
 
 - `App` が持つ state と、その値を使うコンポーネント
+- Hooks を呼ぶ場所と、state の更新を依頼した後に表示が変わる流れ
 - 入力から検索結果が変わるまでの流れ
 - `map`・`filter`・`sort` の役割の違い
 - API 取得を Effect で行い、結果を state に入れる理由
+- state と ref の用途の違い、Effect のクリーンアップの役割
 - `nameja` がないときに何が起き、どう修正したか
 - CSS の変更とデータの変更が、画面のどの部分に反映されるか
 

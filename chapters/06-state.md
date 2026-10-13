@@ -28,6 +28,10 @@ const [selectedId, setSelectedId] = useState(null)
 
 `useState` は、現在の値と更新用の関数を配列で返します。`selectedId` が値、`setSelectedId` が更新用の関数です。配列から2つを取り出す記法も分割代入です。`null` は、まだ何も選んでいない状態を表します。
 
+`useState(null)` の `null` は、コンポーネントを表示し始めるときの初期値です。再レンダーでは、React が覚えている現在の値を受け取ります。
+
+`useState` は、React の機能を利用するための **Hook（フック）** の1つです。この教材の Hooks は、コンポーネントの関数内で、条件分岐や `return` より前に呼びます。`if`・ループ・クリック時の関数の中へ置かず、毎回同じ順序で呼ぶことがルールです。[React：フックのルール](https://ja.react.dev/reference/rules/rules-of-hooks)
+
 ページの `h1` の後ろに追加します。
 
 ```jsx
@@ -52,7 +56,7 @@ export default function PokemonCard({ pokemon, onSelect }) {
 
 ```jsx
 <button className="pokemon-select" type="button" onClick={() => onSelect(pokemon.id)}>
-  このポケモンを選ぶ
+  {pokemon.nameja}を選ぶ
 </button>
 ```
 
@@ -67,6 +71,8 @@ export default function PokemonCard({ pokemon, onSelect }) {
 **確認：** ヒトカゲのボタンを押すと、選択した番号が `4` になります。別のボタンを押すと、番号が切り替わります。
 
 `onClick={onSelect(pokemon.id)}` と書くと、表示を作る途中で処理を実行してしまいます。クリック時に実行する関数を渡しているか確認してください。
+
+ボタンの文字には名前も含めています。ボタンだけを見たり読み上げたりしても、どのポケモンを選ぶのか分かります。
 
 ## ステップ3 選んだボタンを分かるようにする
 
@@ -123,7 +129,28 @@ button[aria-pressed="true"] {
 
 **確認：** 選んだボタンに枠が付きます。別のポケモンを選ぶと、枠も移動します。state は親に1つあり、各カードはその値を比較して表示しています。
 
-## ステップ4 キーボードでも操作する
+## ステップ4 state が更新されるタイミングを調べる
+
+React がコンポーネントの関数を呼び、表示内容を計算することを **レンダー** と呼びます。更新関数は、次のレンダーに使う値を React に伝えます。実行中の関数が持つ state の値は、そのレンダー時点のものです。[React：state はスナップショットである](https://ja.react.dev/learn/state-as-a-snapshot)
+
+`App.jsx` の関数内で、state の宣言の後に一時的な関数を追加します。
+
+```js
+function handleSelect(id) {
+  console.log('選ぶ番号:', id)
+  console.log('更新前:', selectedId)
+  setSelectedId(id)
+  console.log('更新を依頼した直後:', selectedId)
+}
+```
+
+親から渡す `onSelect={setSelectedId}` を `onSelect={handleSelect}` に変更し、ページを再読み込みします。
+
+**確認：** 初めてヒトカゲを選ぶと、選ぶ番号は `4`、後の2つのログはどちらも `null` です。一方、画面には更新後の番号 `4` が出ます。次にリザードンを選ぶと、選ぶ番号は `6`、後の2つのログはどちらも前回の `4` になります。
+
+`console.log` はコンソールへ値を出して調べるための関数です。確認後は、一時的な `handleSelect` を削除し、`onSelect={setSelectedId}` に戻してください。
+
+## ステップ5 キーボードでも操作する
 
 `Tab` キーでボタンへ移動し、`Enter` または `Space` キーで選択します。
 
