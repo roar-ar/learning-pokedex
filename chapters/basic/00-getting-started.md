@@ -8,7 +8,7 @@
 - `src/App.jsx` の変更をブラウザで確認できる
 - エラーの場所を調べ、動く状態に戻せる
 
-コードはリポジトリ直下の `src/` に書きます。この章の完成例は [examples/00-getting-started/](../examples/00-getting-started/) にあります。
+コードはリポジトリ直下の `src/` に書きます。この章の完成例は [examples/00-getting-started/](../../examples/00-getting-started/) にあります。
 
 ## ステップ1 作業するフォルダーを確認する
 
@@ -143,6 +143,6 @@ npm run dev
 
 見出しを好きな文章に変えて、保存による更新を確認してください。確認後は `はじめてのReact` に戻し、次の章へ進みます。
 
-完成例の起動方法は [examples の案内](../examples/README.md) にあります。
+完成例の起動方法は [examples の案内](../../examples/README.md) にあります。
 
 [次へ：第01章 JSX](01-jsx.md)

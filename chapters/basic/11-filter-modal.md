@@ -8,7 +8,7 @@
 - `useRef` でブラウザの要素を参照する
 - `dialog` を開閉し、キーボードで操作する
 
-第10章の完成状態から始めます。完成例は [examples/11-filter-modal/](../examples/11-filter-modal/) です。
+第10章の完成状態から始めます。完成例は [examples/11-filter-modal/](../../examples/11-filter-modal/) です。
 
 ## ステップ1 条件の入力欄を部品にする
 
@@ -164,6 +164,6 @@ state は値の更新に合わせて表示を更新するときに使い、ref �
 
 「ほのお」「番号が大きい順」に変更して `Escape` で閉じ、6・5・4の順になることを確認してください。条件は即時反映するため、`Escape` で閉じても取り消されません。
 
-完成コードは [App.jsx](../examples/11-filter-modal/src/App.jsx)、[FilterControls.jsx](../examples/11-filter-modal/src/components/FilterControls.jsx)、[styles.css](../examples/11-filter-modal/src/styles.css) にあります。
+完成コードは [App.jsx](../../examples/11-filter-modal/src/App.jsx)、[FilterControls.jsx](../../examples/11-filter-modal/src/components/FilterControls.jsx)、[styles.css](../../examples/11-filter-modal/src/styles.css) にあります。
 
 [前へ：第10章 並び替え](10-sort.md) / [次へ：第12章 PokéAPI](12-pokeapi.md)

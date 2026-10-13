@@ -9,7 +9,7 @@
 - 背景、枠線、余白、画像の大きさを変更できる
 - 開発者ツールで CSS の効果を調べられる
 
-第02章の完成状態から始めます。完成例は [examples/03-css-and-images/](../examples/03-css-and-images/) にあります。画像は外部 URL から読み込むため、インターネット接続が必要です。
+第02章の完成状態から始めます。完成例は [examples/03-css-and-images/](../../examples/03-css-and-images/) にあります。画像は外部 URL から読み込むため、インターネット接続が必要です。
 
 ## ステップ1 画像 URL を読み、画像を表示する
 
@@ -199,7 +199,7 @@ export default function App() {
 }
 ```
 
-CSS の全体は [完成例の styles.css](../examples/03-css-and-images/src/styles.css) と比較できます。
+CSS の全体は [完成例の styles.css](../../examples/03-css-and-images/src/styles.css) と比較できます。
 
 **確認：** 次の点を確かめてください。
 

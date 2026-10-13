@@ -8,7 +8,7 @@
 - 一覧に `key` を付ける
 - CSS Grid でカードを並べる
 
-第04章の完成状態から始めます。完成例は [examples/05-list/](../examples/05-list/) です。
+第04章の完成状態から始めます。完成例は [examples/05-list/](../../examples/05-list/) です。
 
 ## ステップ1 配列からカードを作る
 
@@ -78,6 +78,6 @@
 
 カードの `gap` を一時的に `8px` へ変更してください。カードの内側の余白と、カード同士の間隔が別の指定であることを確認し、`20px` に戻します。
 
-完成コードは [App.jsx](../examples/05-list/src/App.jsx)、[PokemonCard.jsx](../examples/05-list/src/components/PokemonCard.jsx)、[styles.css](../examples/05-list/src/styles.css) にあります。
+完成コードは [App.jsx](../../examples/05-list/src/App.jsx)、[PokemonCard.jsx](../../examples/05-list/src/components/PokemonCard.jsx)、[styles.css](../../examples/05-list/src/styles.css) にあります。
 
 [前へ：第04章 コンポーネント](04-components.md) / [次へ：第06章 クリックと state](06-state.md)

@@ -8,7 +8,7 @@
 - `some` で複数あるタイプを調べる
 - 条件を `&&` と `||` で組み合わせる
 
-第08章の完成状態から始めます。完成例は [examples/09-type-filter/](../examples/09-type-filter/) です。
+第08章の完成状態から始めます。完成例は [examples/09-type-filter/](../../examples/09-type-filter/) です。
 
 ## ステップ1 タイプの選択を保持する
 
@@ -97,6 +97,6 @@ const filteredPokemon = pokemonList.filter((pokemon) => {
 
 「どく」で絞ったときにフシギダネが表示される理由を、`pokemon.types` のデータと `some` の処理を見比べて説明してください。
 
-完成コードは [App.jsx](../examples/09-type-filter/src/App.jsx) にあります。
+完成コードは [App.jsx](../../examples/09-type-filter/src/App.jsx) にあります。
 
 [前へ：第08章 名前検索](08-search.md) / [次へ：第10章 並び替え](10-sort.md)

@@ -8,7 +8,7 @@
 - `filter` と `includes` で検索する
 - 件数と結果なしの表示を作る
 
-第07章の完成状態から始めます。完成例は [examples/08-search/](../examples/08-search/) です。
+第07章の完成状態から始めます。完成例は [examples/08-search/](../../examples/08-search/) です。
 
 ## ステップ1 名前の入力欄を作る
 
@@ -127,6 +127,6 @@ select {
 
 一覧のカードや入力欄は切り替え時に取り除かれますが、`App` の `query` は保持されます。state はそれを持つコンポーネントに結び付いているためです。ブラウザでページを再読み込みすると、新しい `App` が作られ、検索文字も初期値の空文字に戻ります。[React：state の保持とリセット](https://ja.react.dev/learn/preserving-and-resetting-state)
 
-完成コードは [App.jsx](../examples/08-search/src/App.jsx) にあります。
+完成コードは [App.jsx](../../examples/08-search/src/App.jsx) にあります。
 
 [前へ：第07章 詳細画面](07-detail.md) / [次へ：第09章 タイプ絞り込み](09-type-filter.md)

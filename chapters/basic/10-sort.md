@@ -8,7 +8,7 @@
 - 配列をコピーしてから `sort` する
 - 比較関数の返す数値と順序の関係を理解する
 
-第09章の完成状態から始めます。完成例は [examples/10-sort/](../examples/10-sort/) です。
+第09章の完成状態から始めます。完成例は [examples/10-sort/](../../examples/10-sort/) です。
 
 ## ステップ1 並び順を選ぶ
 
@@ -82,6 +82,6 @@ const sortedPokemon = [...filteredPokemon].sort((a, b) => (
 
 名前を `フシギ` にして小さい順・大きい順を切り替えてください。次にすべての条件を戻し、全件の順序が正しく戻ることを確認します。
 
-完成コードは [App.jsx](../examples/10-sort/src/App.jsx) にあります。
+完成コードは [App.jsx](../../examples/10-sort/src/App.jsx) にあります。
 
 [前へ：第09章 タイプ絞り込み](09-type-filter.md) / [次へ：第11章 条件操作のモーダル](11-filter-modal.md)

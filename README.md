@@ -49,7 +49,7 @@ npm run dev
 ターミナルに表示される URL をブラウザで開きます。
 最初は `Hello World` が表示されます。
 
-## 必修チャプター
+## 基本チャプター（必修）
 
 第00章から順番に進めます。
 
@@ -69,26 +69,47 @@ npm run dev
 
 | 章 | テーマ |
 | --- | --- |
-| [00](chapters/00-getting-started.md) | 起動と道具 |
-| [01](chapters/01-jsx.md) | JSX |
-| [02](chapters/02-local-json.md) | ローカル JSON の利用 |
-| [03](chapters/03-css-and-images.md) | CSS と画像 |
-| [04](chapters/04-components.md) | コンポーネント |
-| [05](chapters/05-list.md) | 一覧の作成 |
-| [06](chapters/06-state.md) | クリックと state |
-| [07](chapters/07-detail.md) | 詳細画面 |
-| [08](chapters/08-search.md) | 名前検索 |
-| [09](chapters/09-type-filter.md) | タイプ絞り込み |
-| [10](chapters/10-sort.md) | 並び替え |
-| [11](chapters/11-filter-modal.md) | 条件操作のモーダル |
-| [12](chapters/12-pokeapi.md) | PokéAPI |
-| [13](chapters/13-finish.md) | 仕上げ |
+| [00](chapters/basic/00-getting-started.md) | 起動と道具 |
+| [01](chapters/basic/01-jsx.md) | JSX |
+| [02](chapters/basic/02-local-json.md) | ローカル JSON の利用 |
+| [03](chapters/basic/03-css-and-images.md) | CSS と画像 |
+| [04](chapters/basic/04-components.md) | コンポーネント |
+| [05](chapters/basic/05-list.md) | 一覧の作成 |
+| [06](chapters/basic/06-state.md) | クリックと state |
+| [07](chapters/basic/07-detail.md) | 詳細画面 |
+| [08](chapters/basic/08-search.md) | 名前検索 |
+| [09](chapters/basic/09-type-filter.md) | タイプ絞り込み |
+| [10](chapters/basic/10-sort.md) | 並び替え |
+| [11](chapters/basic/11-filter-modal.md) | 条件操作のモーダル |
+| [12](chapters/basic/12-pokeapi.md) | PokéAPI |
+| [13](chapters/basic/13-finish.md) | 仕上げ |
+
+## 発展チャプター
+
+第13章の完成状態から、機能の追加とコードの整理を学びます。 `※工事中です！`
+
+| 章 | テーマ |
+| --- | --- |
+| [14](chapters/advanced/14-multi-type-filter.md) | 複数タイプの絞り込み |
+| [15](chapters/advanced/15-pagination.md) | ページ分割 |
+| [16](chapters/advanced/16-apply-cancel-filters.md) | 条件の適用とキャンセル |
+| [17](chapters/advanced/17-stat-chart.md) | ステータスのグラフ化 |
+| [18](chapters/advanced/18-favorites.md) | お気に入りと保存 |
+| [19](chapters/advanced/19-theme.md) | テーマ切り替え |
+| [20](chapters/advanced/20-custom-hooks.md) | カスタム Hooks |
+| [21](chapters/advanced/21-children.md) | children による部品の組み合わせ |
+| [22](chapters/advanced/22-reducer.md) | useReducer |
+| [23](chapters/advanced/23-context.md) | Context |
+| [24](chapters/advanced/24-query-string.md) | QueryString と検索条件 |
+| [25](chapters/advanced/25-detail-url.md) | 個別の詳細 URL |
 
 ## 主なディレクトリとファイル
 
 | パス | 役割 |
 | --- | --- |
 | `chapters/` | 順番に読む教材 |
+| `chapters/basic/` | 第00〜13章の基本編 |
+| `chapters/advanced/` | 第14〜25章の発展編 |
 | `examples/` | 各章を終えた状態の完成例 |
 | `src/App.jsx` | 画面の起点になるコンポーネント |
 | `src/main.jsx` | React をページに表示する入口 |

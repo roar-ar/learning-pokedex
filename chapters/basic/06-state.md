@@ -8,7 +8,7 @@
 - クリック時の処理を親子で受け渡す
 - state の更新が表示へ反映されることを確かめる
 
-第05章の完成状態から始めます。完成例は [examples/06-state/](../examples/06-state/) です。
+第05章の完成状態から始めます。完成例は [examples/06-state/](../../examples/06-state/) です。
 
 ## ステップ1 選択した番号を state にする
 
@@ -160,6 +160,6 @@ function handleSelect(id) {
 
 番号が変わるまでの流れを、`ボタン → onSelect → setSelectedId → 再表示` の順にコードで追ってください。
 
-完成コードは [App.jsx](../examples/06-state/src/App.jsx) と [PokemonCard.jsx](../examples/06-state/src/components/PokemonCard.jsx) にあります。
+完成コードは [App.jsx](../../examples/06-state/src/App.jsx) と [PokemonCard.jsx](../../examples/06-state/src/components/PokemonCard.jsx) にあります。
 
 [前へ：第05章 一覧の作成](05-list.md) / [次へ：第07章 詳細画面](07-detail.md)

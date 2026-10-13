@@ -9,7 +9,7 @@
 - JSX の `{ }` で値や計算結果を表示できる
 - タイプ名の対応表から日本語の表示名を取り出せる
 
-第01章の完成状態から始めます。完成例は [examples/02-local-json/](../examples/02-local-json/) にあります。
+第01章の完成状態から始めます。完成例は [examples/02-local-json/](../../examples/02-local-json/) にあります。
 
 ## ステップ1 JSON の形を確かめる
 

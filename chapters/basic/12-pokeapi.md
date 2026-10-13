@@ -9,7 +9,7 @@
 - `useEffect` で取得を開始し、不要になった通信を止める
 - 1〜10のポケモンを順番に取得し、取得済みデータを再利用する
 
-第11章の完成状態から始めます。完成例は [examples/12-pokeapi/](../examples/12-pokeapi/) です。インターネット接続が必要です。
+第11章の完成状態から始めます。完成例は [examples/12-pokeapi/](../../examples/12-pokeapi/) です。インターネット接続が必要です。
 
 ## ステップ1 API の応答を見る
 
@@ -442,6 +442,6 @@ Network で失敗したリクエストを選ぶと、HTTP ステータスが `40
 - 読み込み中、失敗、再試行の表示がある
 - `pokemon.json` の import が残っていない
 
-Effect の全体は [完成例の App.jsx](../examples/12-pokeapi/src/App.jsx)、取得処理は [pokemon.js](../examples/12-pokeapi/src/api/pokemon.js) と比較できます。
+Effect の全体は [完成例の App.jsx](../../examples/12-pokeapi/src/App.jsx)、取得処理は [pokemon.js](../../examples/12-pokeapi/src/api/pokemon.js) と比較できます。
 
 [前へ：第11章 条件操作のモーダル](11-filter-modal.md) / [次へ：第13章 仕上げ](13-finish.md)

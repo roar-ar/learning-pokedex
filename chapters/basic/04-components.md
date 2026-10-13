@@ -8,7 +8,7 @@
 - `import` と `export default` で部品を使う
 - props でポケモンの情報を渡す
 
-第03章の完成状態から始めます。完成例は [examples/04-components/](../examples/04-components/) です。
+第03章の完成状態から始めます。完成例は [examples/04-components/](../../examples/04-components/) です。
 
 ## ステップ1 カードを別ファイルに移す
 
@@ -116,6 +116,6 @@ App.jsx
 
 `App.jsx` に一時的に `<PokemonCard pokemon={pokemonList[3]} />` をもう1つ追加してください。2匹を同じ部品で表示できることを確認し、追加した1行を戻します。
 
-完成コードは [App.jsx](../examples/04-components/src/App.jsx) と [PokemonCard.jsx](../examples/04-components/src/components/PokemonCard.jsx) で確認できます。
+完成コードは [App.jsx](../../examples/04-components/src/App.jsx) と [PokemonCard.jsx](../../examples/04-components/src/components/PokemonCard.jsx) で確認できます。
 
 [前へ：第03章 CSS と画像](03-css-and-images.md) / [次へ：第05章 一覧の作成](05-list.md)

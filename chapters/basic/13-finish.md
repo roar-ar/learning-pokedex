@@ -9,7 +9,7 @@
 - 詳細から一覧へ戻ったときのフォーカスを整える
 - 画面幅と通信状態を変えて確認し、ビルドする
 
-第12章の完成状態から始めます。完成例は [examples/13-finish/](../examples/13-finish/) です。
+第12章の完成状態から始めます。完成例は [examples/13-finish/](../../examples/13-finish/) です。
 
 ## ステップ1 現在の条件を表示する
 
@@ -204,6 +204,6 @@ npm run preview -- examples/13-finish
 - `nameja` がないときに何が起き、どう修正したか
 - CSS の変更とデータの変更が、画面のどの部分に反映されるか
 
-完成コードは [App.jsx](../examples/13-finish/src/App.jsx)、[各コンポーネント](../examples/13-finish/src/components/)、[取得処理](../examples/13-finish/src/api/pokemon.js)、[styles.css](../examples/13-finish/src/styles.css) にあります。
+完成コードは [App.jsx](../../examples/13-finish/src/App.jsx)、[各コンポーネント](../../examples/13-finish/src/components/)、[取得処理](../../examples/13-finish/src/api/pokemon.js)、[styles.css](../../examples/13-finish/src/styles.css) にあります。
 
-[前へ：第12章 PokéAPI](12-pokeapi.md) / [README に戻る](../README.md)
+[前へ：第12章 PokéAPI](12-pokeapi.md) / [README に戻る](../../README.md)

@@ -9,7 +9,7 @@
 - 親から渡した関数で一覧へ戻る
 - 配列に入った特性とステータスを表示する
 
-第06章の完成状態から始めます。完成例は [examples/07-detail/](../examples/07-detail/) です。
+第06章の完成状態から始めます。完成例は [examples/07-detail/](../../examples/07-detail/) です。
 
 ## ステップ1 詳細の部品を作る
 
@@ -193,6 +193,6 @@ import statNames from '../data/statNames.ja.json'
 
 「一覧に戻る」を `Enter` で押し、別のカードの詳細を開いてください。一覧・詳細の切り替えを決めている値がどれか説明してみましょう。
 
-完成コードは [App.jsx](../examples/07-detail/src/App.jsx) と [PokemonDetail.jsx](../examples/07-detail/src/components/PokemonDetail.jsx) にあります。
+完成コードは [App.jsx](../../examples/07-detail/src/App.jsx) と [PokemonDetail.jsx](../../examples/07-detail/src/components/PokemonDetail.jsx) にあります。
 
 [前へ：第06章 クリックと state](06-state.md) / [次へ：第08章 名前検索](08-search.md)
