@@ -206,4 +206,4 @@ npm run preview -- examples/13-finish
 
 完成コードは [App.jsx](../../examples/13-finish/src/App.jsx)、[各コンポーネント](../../examples/13-finish/src/components/)、[取得処理](../../examples/13-finish/src/api/pokemon.js)、[styles.css](../../examples/13-finish/src/styles.css) にあります。
 
-[前へ：第12章 PokéAPI](12-pokeapi.md) / [README に戻る](../../README.md)
+[前へ：第12章 PokéAPI](12-pokeapi.md) / [次へ：第14章 複数タイプの絞り込み](../advanced/14-multi-type-filter.md) / [README に戻る](../../README.md)
